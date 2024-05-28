@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <style>
+        .table {
+            /* background: url("../seccion1/image/pic.png"); */
+            background-color: aqua;
+            color: blue;
+            font-size: 35px;
+            font-weight: 900;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 10px;
+            padding: 10px;
+            margin-bottom: 50px;
+            margin-left: 50px;
+            margin: 10px 5px;
+            /* (top right buttom left) */
+            margin: 10px 5px 2px 100px;
+            margin: 10px 5px;
+            margin: 10px 5px 7px 0;
+
+            padding: 15px;
+            padding: 10px 15px;
+            padding: 10px 15px 20px;
+            padding: 10px 15px 20px 25px;
+
+            border: 10px solid red;
+            border-radius: 5px;
+            /* height: 33rem; */
+            /* width: 33rem; */
+            /* border-radius: 50%; */
+
+        }
+
+        .email {
+            font-size: 10px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: space-around;
+            align-items: flex-end;
+        }
+
+        .image {
+            height: 10rem;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="table">
+        <thead>
+            <tr>
+                <!-- table head  th-->
+                <th>name</th>
+                <th>age</th>
+                <th class="email" style="font-size: 50px !important;">email</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>ahmed</td>
+                <td>25</td>
+                <td>ahmed@email.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <table style="border: 5px;">
+        <tr>
+            <td>name</td>
+            <td>age</td>
+            <td>email</td>
+        </tr>
+        <tr>
+            <td>ahmed</td>
+            <td>25</td>
+            <td>ahmed@gmail</td>
+        </tr>
+    </table>
+
+    <form>
+
+        <label for="">email</label>
+        <input type="email">
+        <br>
+        <label for=""> password</label>
+        <input type="text">
+
+        <br>
+        <label for=""> phone</label>
+        <input type="text">
+
+        <br>
+        <label for="">are you ready</label>
+        <input type="checkbox">
+
+        <br>
+        <label for=""> redio button</label>
+        <input type="radio" name="gender" value="male">
+        <br>
+        <label for=""> date</label>
+        <input type="datetime-local">
+        <br>
+        <label for="">submit</label>
+        <input type="submit">
+        <button type="submit"> submit</button>
+        <br>
+        <label for=""> upload file</label>
+        <input type="file">
+
+    </form>
+
+
+    <container class="container">
+        <div>login</div>
+        <div>
+            <img src="../seccion1/image/pic.png" class="image" alt="" srcset="">
+        </div>
+    </container>
+
+</body>
+
+</html>
