@@ -1,0 +1,65 @@
+body {
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 3rem;
+}
+
+.left-section {
+    height: 28rem;
+}
+
+.image {
+    height: 27rem;
+    width: 20rem;
+    border-radius: 10px 0 0 10px;
+}
+
+.perfume {
+    color: #000000d1;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.floral {
+    font-family: math;
+}
+
+.price {
+    color: #497f4b;
+}
+
+.del {
+    font-size: 20px;
+    opacity: 0.6;
+    color: black;
+}
+
+.buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.button {
+    font-size: 19px;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    background: #497f4b;
+    border-radius: 5px;
+    padding: 8px 16px;
+    border: 1px;
+}
+
+.right-section {
+    padding: 2rem;
+    background: white;
+    border-radius: 0px 10px 10px 0px;
+}
