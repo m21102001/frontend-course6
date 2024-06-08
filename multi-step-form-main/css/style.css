@@ -1,0 +1,15 @@
+.step1 {
+    display: flex;
+}
+
+.circle {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+
+}
+
+.left-side {
+    background-image: url("../assets/images/bg-sidebar-mobile.svg");
+    height: 32rem;
+}
